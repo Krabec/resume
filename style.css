@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    src: url('font/Lora-Regular.ttf');
+    font-family: 'Lora Regular';
+}
+
+@font-face {
+    src: url('font/Lora-Bold.ttf');
+    font-family: 'Lora Bold';
+}
+
+html body {
+    background-color: rgb(236, 234, 234);
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    font-family: 'Lora Bold', serif;
+}
+
+a {
+    color: olivedrab;
+    font-family: 'Lora Bold', serif;
+}
+a:hover {
+    color: grey;
+}
+a:visited {
+    color: rgb(64, 87, 18);
+}
+nav {
+    text-align: center;
+}
+.navi {
+    display: inline;
+    margin: 0px 25px 0px;   
+
+}
+
+main {
+    margin-top: 120px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 105px 15px 20px;
+    padding: 13px;
+    border: 1px solid rgb(218, 218, 218);
+    display: flex;
+    flex-direction: row;
+
+}
+.images {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid rgb(218, 218, 218);
+}
+h2 {
+    margin: 0;
+    border-left: 5px solid olivedrab;
+    padding-left: 5px;
+    font-family: 'Lora Bold', serif;
+}
+
+footer {
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+h3 {
+    font-family: 'Lora Bold', serif;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+aside>p {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+p>a {
+    padding-left: 15px;
+}
+
+.colum2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+ul>p {
+    margin: 0px;
+}
+.colum1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
